@@ -27,12 +27,12 @@ echo Installation Successful ! Thanks for installing our mod ! Don't forget to j
 echo ---------------------------------------------
 echo Mod Made by: 
 echo FIREXDF and FloweyGaming from The Golden Saiyans Team
-
+echo  
 echo Contributors:
 echo SighKick
 echo EliMCGamerGuy
 echo angelo/apcompsci
-
+echo  
 echo Special Thanks:
 echo AndrewTheModHunter for giving 30 points on GameBanana
 echo tom for giving 10 points on GameBanana
