@@ -1,4 +1,21 @@
 @echo off
+REM Test if tar are install
+tar --version >nul 2>&1
+
+REM Verify the error code
+if %errorlevel% neq 0 (
+	echo You need to install tar.
+	echo.
+	echo Redirect to tar download page in 5 seconds...
+	timeout /t 5 /nobreak >NUL
+	start "" "https://sourceforge.net/projects/gnuwin32/files/tar/1.13-1/tar-1.13-1-bin.exe/download?use_mirror=altushost-swe&download="
+exit
+else 
+	echo Downloading...
+timeout /t 2 /nobreak >NUL
+curl -LO https://raw.githubusercontent.com/Golden-Saiyans/TLHD-Easy-Setup/main/installall.bat
+exit
+)
 color 0A
 echo Welcome to the Tomodachi Life HD Online Installer !
 echo --------------------------------
