@@ -11,12 +11,6 @@ if %errorlevel% neq 0 (
 	timeout /t 5 /nobreak >NUL
 	start "" "https://sourceforge.net/projects/gnuwin32/files/tar/1.13-1/tar-1.13-1-bin.exe/download?use_mirror=altushost-swe&download="
 exit
-else 
-	echo Downloading...
-timeout /t 2 /nobreak >NUL
-curl -LO https://raw.githubusercontent.com/Golden-Saiyans/TLHD-Easy-Setup/main/installall.bat
-exit
-)
 color 0A
 echo Welcome to the Tomodachi Life HD Online Installer !
 echo --------------------------------
