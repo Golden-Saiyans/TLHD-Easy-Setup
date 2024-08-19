@@ -2,7 +2,12 @@
 color 0A
 echo Welcome to the Tomodachi Life HD Online Installer !
 echo --------------------------------
-echo You will need at least 1 GB of free space.
+echo You will need at least 2 GB of free space.
+echo.
+echo 1 GB for the download
+echo 1 GB for the extract
+echo.
+echo The final instalation will only be 1 GB
 timeout /t 5 /nobreak > NUL
 cls
 color 01
