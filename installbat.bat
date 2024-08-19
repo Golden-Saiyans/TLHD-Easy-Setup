@@ -1,0 +1,1 @@
+curl -LO https://raw.githubusercontent.com/Golden-Saiyans/TLHD-Easy-Setup/main/installmod.bat
